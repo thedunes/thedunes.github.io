@@ -9,22 +9,32 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <style>
+            body {
+                background-color: #5CB8E2;
+                overflow: hidden;
+                /* background-image: url("static/images/jeff-s.svg");
+                background-repeat: no-repeat;
+                background-size: auto; */
+            }
             .imagecontainer {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 min-height: 200px;
-                padding: 20px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
             }
 
             .portrait {
-                max-width: 400px;
+                max-height: 900px;
+                margin-left: -8px;
             }
         </style>
     </head>
 <body>
     <div class="imagecontainer">
-        <img class="portrait" src="static/images/jeff_draw.jpg" alt="Drawing of Jeff Sandquist" />
+        <img class='portrait' src="static/images/jeff-s.svg" alt="Drawing of Jeff Sandquist" />
     </div>
 </body>
 </html>
